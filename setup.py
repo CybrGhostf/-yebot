@@ -1,5 +1,5 @@
 #!/bin/env python3
-# code by : youtube.com/theunknon
+# code by : https://t.me/sairbey
 
 """
 
@@ -78,7 +78,7 @@ def merge_csv():
 def update_tool():
 	import requests as r
 	banner()
-	source = r.get("https://raw.githubusercontent.com/th3unkn0n/TeleGram-Scraper/master/.image/.version")
+	source = r.get("https://github.com/CybrGhostf/-yebot/master/.image/.version")
 	if source.text == '3':
 		print(gr+'['+cy+'+'+gr+']'+cy+' alredy latest version')
 	else:
@@ -123,5 +123,5 @@ try:
 except IndexError:
 	print('\n'+gr+'['+re+'!'+gr+']'+cy+' no argument given : '+ sys.argv[1])
 	print(gr+'['+re+'!'+gr+']'+cy+' for help use : ')
-	print(gr+'['+re+'!'+gr+']'+cy+' https://github.com/th3unkn0n/TeleGram-Scraper#-how-to-install-and-use')
+	print(gr+'['+re+'!'+gr+']'+cy+' https://github.com/CybrGhostf/-yebot#-how-to-install-and-use')
 	print(gr+'$ python3 setup.py -h'+'\n')
